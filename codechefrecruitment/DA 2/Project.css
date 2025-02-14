@@ -1,0 +1,201 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+body {
+    font-family: 'Poppins', Short stack;
+    background: linear-gradient(to right, #ff2407, #28d7e4, #f33016);
+    color: beige;
+    padding-top: 60px;
+}
+
+.loginbody {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(252, 136, 3, 0.973);
+    padding: 10px 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0px;
+    margin-left: auto;
+    padding: 0px;
+
+    overflow: hidden;
+    border-radius: 2cap;
+    display: flex;
+}
+
+.navbar a {
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bolder;
+    color: #0f0c29;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: rgb(3, 3, 3);
+}
+
+.navbar li {
+    margin: 0 10px;
+}
+
+
+.song {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.login {
+    padding: 10px;
+    width: 300px;
+    margin: auto;
+    border-radius: 2cap;
+    position: relative;
+    top: 9cap;
+    text-align: center;
+    color: beige;
+    padding-bottom: 2cap;
+    border: 2px solid rgba(255, 0, 255, 0.8);
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.login h1 {
+    font-size: 36px;
+}
+
+.inputbox input {
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 2cap;
+}
+
+.reg {
+    padding: 10px;
+    padding-bottom: 2cap;
+    width: 300px;
+    margin: auto;
+    border: 2px solid;
+    border-radius: 2cap;
+    position: relative;
+    top: 9cap;
+    text-align: center;
+    color: beige;
+    border: 2px solid rgba(255, 0, 255, 0.8);
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.reg h1 {
+    font-size: 36px;
+}
+
+a:hover {
+    color: tomato;
+}
+
+.sgrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.scard {
+    display: flex;
+    align-items: center;
+    background: #0d3f30;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.scard img {
+    width: 60px;
+    height: 60px;
+    border-radius: 5cap;
+    margin-right: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.btn {
+    border-radius: 10cap;
+    padding: 1cap;
+    font-family: 'poppins';
+}
+
+a {
+    color: aqua;
+}
+
+.scard audio {
+    opacity: 0;
+    transition: 1s;
+}
+
+.scard:hover audio {
+    opacity: 1;
+}
+
+.mood {
+    text-align: center;
+    margin: 40px auto;
+    padding: 20px;
+    background: #1e1e1e;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(255, 87, 34, 0.3);
+    max-width: 500px;
+}
+
+.mood h2 {
+    font-size: 24px;
+    color: #ffcc00;
+    margin-bottom: 15px;
+}
+
+.mood ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.mood ul li {
+    display: inline-block;
+}
+
+.mood ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(#ff5722, #ff9800);
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+.mood ul li a:hover {
+    transform: scale(1.1);
+    background: linear-gradient(#ff9800, #ffcc00);
+}
